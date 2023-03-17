@@ -6,7 +6,7 @@ async function fetchData(showTitle){
 	showTitle(data.title);
 }
 function showMessage(message){
-	const output=document.getElementByID('output');
+	const output=document.getElementByID("output");
 	output.textContent=message;
 }
 btn.addEventListener("click",()=>fetchData(showMessage));
